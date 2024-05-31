@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Smart_E_Voter</string>
+    <string name="para">
+        <b>1.Eligibility : </b>
+        Voters must meet the eligibility criteria established by the relevant electoral authority. This may include age requirements,
+        citizenship status, and residency within the voting jurisdiction.
+        \n\n
+        <b>2.Identification : </b>
+        Voters may be required to verify their identity before casting their vote. Acceptable forms of identification
+        include voter registration cards.
+        \n\n
+        <b>3.Voter Registration : </b>
+        In jurisdictions where voter registration is required, voters must ensure that they are registered to vote prior to the
+        election or voting day. Failure to register within the specified deadline may result in ineligibility to vote. So the voter ensure
+        that they are registered by administrator.
+        \n\n
+        <b>4.Secrecy of the vote : </b>
+        Voters must maintain the secrecy of their vote by marking their choices in private as instructed. Sharing or disclosing
+        the contents of one vote is strictly prohibited.
+        \n\n
+        <b>5.Compliance with Instructions : </b>
+        Voters must comply with the instructions provided by election officials. This includes following the procedures for
+        casting a vote and adhering to any rules specific to the voting.
+        \n\n
+        <b>6.Respect for the Election Process : </b>
+        Voters should respect the integrity of the electoral process and refrain from any behavior that undermines public
+        confidence in the fairness of the election.
+        \n\n
+    </string>
+    <string name="result_display">Result Display ...</string>
+    <string name="scan">Scan</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">voter fragment</string>
+    <string name="qrcode">Please scan this below code while you are committed to the voting process for an authentication purpose.</string>
+    <string name="ins">Please provide all the information that are required here.</string>
+    <string name="voteinfo">Please authenticate with fingerprint, QRCode and One Time Password to cast your vote more <b>Securely.</b>\n\n
+        When your are going to vote, you must have voter id that are provided by the admin for QRCode scan and you must have a phone for an OTP also verify that
+        the number is provided by you to the Admin.
+    </string>
+    <string name="best">All the best to your vote.</string>
+</resources>

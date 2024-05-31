@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Resultcard"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#555555"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/Result_party_name_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Result_symbol_Name_"
+                android:layout_toEndOf="@+id/Result_party_symbol_"
+                android:padding="1dp"
+                android:textColor="#EAEAEA"
+                android:textSize="12dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/Result_party_symbol_"
+                android:layout_width="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_back"
+                android:layout_weight="1"
+                android:src="@drawable/cartoonimage" />
+
+            <TextView
+                android:id="@+id/Result_symbol_Name_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_toEndOf="@+id/Result_party_symbol_"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="#EAEAEA"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/display_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_back"
+                android:padding="8dp"
+                android:hint="0"
+                android:inputType="number"
+                android:textColor="@color/black"
+                android:textSize="10dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

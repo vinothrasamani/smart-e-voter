@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "448769765636",
+    "project_id": "smart-voting-b57cc",
+    "storage_bucket": "smart-voting-b57cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448769765636:android:dff735f696055086232051",
+        "android_client_info": {
+          "package_name": "com.example.smart_e_voter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTMEtt1VW5npLadt3sX2b-ONhoJ3WMGl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

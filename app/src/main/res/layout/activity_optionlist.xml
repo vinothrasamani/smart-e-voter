@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/candidatecard"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#555555"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/_party_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/_symbol_Name"
+                android:layout_toEndOf="@+id/party_symbol"
+                android:padding="1dp"
+                android:textColor="#EAEAEA"
+                android:textSize="12dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/party_symbol"
+                android:layout_width="50dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text_back"
+                android:layout_weight="1"
+                android:src="@drawable/cartoonimage" />
+
+            <TextView
+                android:id="@+id/_symbol_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_toEndOf="@+id/party_symbol"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="#EAEAEA"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pID"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/btn_back"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:text="Vote" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
